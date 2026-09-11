@@ -16,3 +16,15 @@ npm start
 ```
 
 Menu w grze: prawy ctrl (zapas: f8 / insert).
+
+## lokalny host (ingame)
+
+Launcher stawia WebView host tylko na `127.0.0.1:8905`:
+
+- `GET /` — ClickGUI w przeglądarce
+- `GET /api/modules` — stany cheatów (json)
+- `POST /api/modules` — `{"id":"killaura","enabled":true}`
+- `GET /api/events` — SSE ze zmianami na żywo
+- `GET /api/settings` — ustawienia launchera
+
+Mod w grze polluje `/api/modules` albo słucha SSE i nakłada efekty.
