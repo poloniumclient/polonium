@@ -1,0 +1,23 @@
+{
+  "name": "polonium-client",
+  "version": "0.1.0",
+  "description": "Polonium MC Client - launcher + WebView UI + RCTRL menu (legalne mody HUD, bez cheatów)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "install-mc": "npm i minecraft-launcher-core electron-store"
+  },
+  "author": "Polonium",
+  "license": "MIT",
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "minecraft-launcher-core": "^3.16.3"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  },
+  "allowScripts": {
+    "electron@31.7.7": true
+  }
+}
