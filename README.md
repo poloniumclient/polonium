@@ -6,8 +6,7 @@ Gotowe buildy leżą w [releases](../../releases) oraz w folderze [`Versions/`](
 
 | wersja | plik | mc |
 |---|---|---|
-| 0.2.0 | `Polonium-0.2.0.exe` | 1.8 → 26.2 (wszystkie 74) |
-| 0.1.0 | `Polonium-0.1.0.exe` | 1.8 → 26.2 (wszystkie 74) |
+| 0.3.0 | `Polonium-0.3.0.exe` | 1.8 → 26.2 (wszystkie 74) |
 
 ## archive
 
