@@ -6,12 +6,14 @@ Gotowe buildy leżą w [releases](../../releases) oraz w folderze [`Versions/`](
 
 | wersja | plik | mc |
 |---|---|---|
+| 0.2.0 | `Polonium-0.2.0.exe` | 1.8 → 26.2 (wszystkie 74) |
 | 0.1.0 | `Polonium-0.1.0.exe` | 1.8 → 26.2 (wszystkie 74) |
 
 ## archive
 
-Każdy build: `Archive/{version}/{buildID}/build.json` (hash SHA256, pliki, commit moda).
-Spis: [`Archive/index.json`](Archive/index.json).
+Jary moda per wersja MC: `Archive/{mc}/{buildID}/build.json`
+(hash SHA256, URL do release). Spis: [`Archive/index.json`](Archive/index.json).
+Retencja: ostatnie 70 buildów na wersję (resztę tnie `scripts/archive-build.js`).
 
 ## start (dev)
 

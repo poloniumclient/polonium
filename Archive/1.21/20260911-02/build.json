@@ -1,0 +1,12 @@
+{
+  "mc": "1.21",
+  "launcher": "0.2.0",
+  "build": "20260911-02",
+  "date": "2026-09-11",
+  "jar": {
+    "name": "polonium-1_21-0.2.0.jar",
+    "size": 17899,
+    "sha256": "36B1352096DE556D09CE054384A12AD1449D18F077960B40B4E024D122A852BA",
+    "url": "https://github.com/poloniumclient/polonium/releases/download/v0.2.0/polonium-1_21-0.2.0.jar"
+  }
+}
