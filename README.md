@@ -17,6 +17,12 @@ npm start
 
 Menu w grze: prawy ctrl (zapas: f8 / insert).
 
+## auto-attach cheatów
+
+Przy cheats ON launcher sam, bez klikania: dociąga Fabric installera,
+instaluje loader dla danej wersji MC i dokleja `mods/polonium-*.jar`
+do instancji. Wersje bez moda lecą vanilla + flaga.
+
 ## lokalny host (ingame)
 
 Launcher stawia WebView host tylko na `127.0.0.1:8905`:
