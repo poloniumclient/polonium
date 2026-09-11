@@ -1,0 +1,11 @@
+{
+  "latest": "0.1.0",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "file": "Polonium-0.1.0.exe",
+      "mc": ["1.8.9", "1.12.2", "1.16.5", "1.20.1", "1.21", "1.21.1"],
+      "url": "https://github.com/poloniumclient/polonium/releases/download/v0.1.0/Polonium-0.1.0.exe"
+    }
+  ]
+}

@@ -7,3 +7,9 @@ Thumbs.db
 .polonium/
 # strona ma własne repo
 githubweb/
+# w repo tylko README + Versions (dev lokalnie)
+src/
+main.js
+preload.js
+package.json
+package-lock.json
