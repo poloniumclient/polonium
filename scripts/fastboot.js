@@ -23,10 +23,16 @@ function loadStore() {
 function writeStore(d) {
   fs.writeFileSync(STORE_FILE, JSON.stringify(d, null, 2));
 }
-if (!loadStore().modules) {
+const { migrateModules } = require('../src/core/migrateModules.js');
+{
+  // migracja przy każdym starcie (dokleja nowe moduły jak mlg, klucze settings)
   const d = loadStore();
-  d.modules = require('../src/core/defaultModules.js');
-  writeStore(d);
+  const r = migrateModules(d.modules, require('../src/core/defaultModules.js'));
+  if (!d.modules || r.added) {
+    d.modules = r.modules;
+    writeStore(d);
+    if (r.added) console.log(`[fastboot] migracja modułów (+${r.added})`);
+  }
 }
 const getStore = async () => ({
   get: (k, def) => { const d = loadStore(); return d[k] !== undefined ? d[k] : def; },
